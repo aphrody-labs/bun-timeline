@@ -91,7 +91,7 @@ consommer directement les exports sans ce raccordement.
 
 ## Repository and install
 
-`` was `packages/bun-timeline` of [aphrody-labs/bun](https://github.com/aphrody-labs/bun), which keeps
+`@aphrody/timeline` was `packages/bun-timeline` of [aphrody-labs/bun](https://github.com/aphrody-labs/bun), which keeps
 the earlier history. Bun OS ([aphrody-labs/bun-os](https://github.com/aphrody-labs/bun-os.git))
 mounts it as `vendor/bun-timeline`. Use it from a checkout:
 
