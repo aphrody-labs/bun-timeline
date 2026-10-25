@@ -87,3 +87,14 @@ Le jeton et les réponses privées ne sont jamais inclus dans les erreurs.
 Le raccordement aux opérations et au foyer natif existants vit dans
 [`@aphrody/workspace`](../web/rust/integrations/packages/infra/workspace/src/shenron.ts). Le produit peut
 consommer directement les exports sans ce raccordement.
+
+
+## Repository and install
+
+`` was `packages/bun-timeline` of [aphrody-labs/bun](https://github.com/aphrody-labs/bun), which keeps
+the earlier history. Bun OS ([aphrody-labs/bun-os](https://github.com/aphrody-labs/bun-os.git))
+mounts it as `vendor/bun-timeline`. Use it from a checkout:
+
+```sh
+git clone https://github.com/aphrody-labs/bun-timeline && cd bun-timeline && bun install && bun test
+```
